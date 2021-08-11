@@ -1,0 +1,8 @@
+<div class="container">
+  <h1 class="my-4 text-center">Our restaurants</h1>
+  <div class="cards mb-5">
+    <% @restaurants.each do |restaurant| %>
+      <%= render 'restaurants/card', restaurant: restaurant %>
+    <% end %>
+  </div>
+</div>

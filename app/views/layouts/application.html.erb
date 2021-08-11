@@ -10,6 +10,20 @@
   </head>
 
   <body>
+  <!-- Navigation bar -->
+  <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
+    <a class="navbar-brand mx-4" href="/restaurants">
+      <img class="avatar" src="https://picsum.photos/200" />
+    </a>
+
+    <div class="pr-5" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <%= link_to '➕ Add Restaurant', new_restaurant_path, class: 'nav-link' %>
+        </li>
+      </ul>
+    </div>
+  </div>
     <%= yield %>
   </body>
 </html>
