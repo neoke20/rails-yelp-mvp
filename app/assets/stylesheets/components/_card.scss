@@ -76,6 +76,12 @@
   align-items: center;
 }
 
+.card-product:hover {
+  position: relative;
+  bottom: 4px;
+  box-shadow: 0 0 24px rgba(231, 230, 230, 0.8);
+}
+
 .card-product img {
   height: 100%;
   width: 120px;
